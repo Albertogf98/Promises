@@ -1,0 +1,40 @@
+{
+  "name": "promises",
+  "version": "0.0.1",
+  "description": "promises exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alberto Gandoy Florido",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-angular": "^11.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-jsdoc3": "^3.0.0",
+    "gulp-live-server": "0.0.31",
+    "gulp-purgecss": "^3.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-useref": "^5.0.0",
+    "husky": "^4.3.0",
+    "jasmine": "^3.6.2",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^2.0.0",
+    "karma-jasmine": "^4.0.1",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

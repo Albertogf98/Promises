@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promesas Gandoy Florido</title>
+  </head>
+  <body></body>
+  <script>
+    /*============================================================================*/
+    // Promesas (Promises) ES6
+    // XHR request XMLHttpRequest
+    // cross domain request
+
+    function ajax(options) {
+      return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+
+        xhr.open('GET', options);
+        xhr.onload = () => {
+          //TERNARIA
+          xhr.status === 200
+            ? resolve(xhr.responseText)
+            : reject(xhr.responseText);
+        };
+        xhr.send();
+      });
+    }
+
+    ajax('https://run.mocky.io/v3/d894412a-8a04-4158-937d-d561290cf6a8')
+      .then(data => console.log(data))
+      .catch(err => console.log(err));
+    /*============================================================================*/
+  </script>
+</html>
